@@ -94,7 +94,3 @@ FROM bitnami/consul:1.11.4-debian-10-r1
 
 # Tags: 1.11.4-debian-10-r0
 FROM bitnami/consul:1.11.4-debian-10-r0
-
-# Tags: 1.11.3-debian-10-r16, 1.11.3
-FROM bitnami/consul:1.11.3-debian-10-r16
-FROM bitnami/consul:1.11.3
