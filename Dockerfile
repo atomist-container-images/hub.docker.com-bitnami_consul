@@ -1,12 +1,21 @@
-# Tags: latest, 1.12.0-debian-10-r8, 1.12.0, 1-debian-10, 1
+# Tags: latest, 1.12.0-debian-10-r11, 1.12.0, 1-debian-10, 1
 FROM bitnami/consul:latest
-FROM bitnami/consul:1.12.0-debian-10-r8
+FROM bitnami/consul:1.12.0-debian-10-r11
 FROM bitnami/consul:1.12.0
 FROM bitnami/consul:1-debian-10
 FROM bitnami/consul:1
 
 # Tags: _
 FROM bitnami/consul:_
+
+# Tags: 1.12.0-debian-10-r10
+FROM bitnami/consul:1.12.0-debian-10-r10
+
+# Tags: 1.12.0-debian-10-r9
+FROM bitnami/consul:1.12.0-debian-10-r9
+
+# Tags: 1.12.0-debian-10-r8
+FROM bitnami/consul:1.12.0-debian-10-r8
 
 # Tags: 1.12.0-debian-10-r7
 FROM bitnami/consul:1.12.0-debian-10-r7
@@ -87,15 +96,3 @@ FROM bitnami/consul:1.11.4-debian-10-r33
 
 # Tags: 1.11.4-debian-10-r32
 FROM bitnami/consul:1.11.4-debian-10-r32
-
-# Tags: 1.11.4-debian-10-r31
-FROM bitnami/consul:1.11.4-debian-10-r31
-
-# Tags: 1.11.4-debian-10-r30
-FROM bitnami/consul:1.11.4-debian-10-r30
-
-# Tags: 1.11.4-debian-10-r29
-FROM bitnami/consul:1.11.4-debian-10-r29
-
-# Tags: 1.11.4-debian-10-r28
-FROM bitnami/consul:1.11.4-debian-10-r28
